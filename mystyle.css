@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+#status {
+  /* avoid an excessively wide status text */
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+h1,h5 {
+  color: navy;
+  margin-left: 20px;
+  margin-right: 20px;
+}
