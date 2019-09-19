@@ -1,0 +1,25 @@
+{
+ "name": "Taboola To SF One Click Case",
+ "manifest_version": 2,
+ "short_name": "One Click Case",
+ "description": "Taboola To SF One Click Case extension",
+ "version": "1.0",
+ "background": {
+    "persistent": false,
+    "scripts": [ "popup.js" ]
+  },
+ "browser_action": {
+  "default_popup": "popup.html",
+	"default_icon": "salesforce_64.png"
+  },
+ "icons": {
+	"128": "salesforce_128.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/"
+  ]
+}
